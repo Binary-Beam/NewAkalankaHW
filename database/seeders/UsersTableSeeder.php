@@ -23,6 +23,7 @@ class UsersTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => 'Sandev Dullewa',
+                'name' => 'defualt.png',
                 'email' => 'sandev.net@gmail.com',
                 'email_verified_at' => NULL,
                 'password' => Hash::make('sandev@123'),
@@ -37,6 +38,7 @@ class UsersTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'name' => 'Pasan Withanage',
+                'name' => 'defualt.png',
                 'email' => 'pasanwithanage530@gmail.com',
                 'email_verified_at' => NULL,
                 'password' => Hash::make('pasan@123'),
