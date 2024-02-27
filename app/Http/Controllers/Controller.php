@@ -14,28 +14,28 @@ class Controller extends BaseController
 
     public function index()
     {
-        $product = Product::find(8);
-        $category = $product->category;
+        // $product = Product::find(8);
+        // $category = $product->category;
 
-        // $customer = Customer::find(1);
-        // $customer->products()->attach([1, 2, 3]);
+        // // $customer = Customer::find(1);
+        // // $customer->products()->attach([1, 2, 3]);
 
-        // // Get products bought by a customer
-        // $customerProducts = $customer->products;
+        // // // Get products bought by a customer
+        // // $customerProducts = $customer->products;
 
-        // dd($customerProducts);
+        // // dd($customerProducts);
 
-        $customer = Customer::find(3);
+        // $customer = Customer::find(3);
 
-        if ($customer) {
-            $products = $customer->products()->get();
+        // if ($customer) {
+        //     $products = $customer->products()->get();
 
-            foreach ($products as $product) {
-                echo $product->name . "<br>";
-            }
-        } else {
-            echo "Customer not found";
-        }
+        //     foreach ($products as $product) {
+        //         echo $product->name . "<br>";
+        //     }
+        // } else {
+        //     echo "Customer not found";
+        // }
 
         return view('welcome');
     }
